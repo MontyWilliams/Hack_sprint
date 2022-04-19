@@ -32,6 +32,11 @@ body {
   font-family: var(--font-primary);
 }
 
+video {
+  position: absolute;
+  height: 100vh;
+  z-index: -110000000;
+}
 .container {
   display: flex;
   flex-direction: column;
