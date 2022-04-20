@@ -12,7 +12,7 @@
   --bg-color-transparent: #00163f80;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: #2f243a;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -35,6 +35,7 @@ body {
 video {
   position: absolute;
   height: 100vh;
+  width: fit-content;
   z-index: -110000000;
 }
 .container {
